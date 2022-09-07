@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #83988e;
+  color: #cf96e9;
+  margin-top: 30px;
+}
+
+.container {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.wrapper:focus {
+  outline: 0;
+}
+  
+/*Iniio de cards*/
+.card1 {
+  background-image: url("https://i.pinimg.com/originals/62/f4/ea/62f4eadaf573aafcac4a476a12477ade.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 650px;
+  display: inline-block;
+  margin:  auto;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.card2 {
+  background-image: url("../imagenes/fondocard2.jpg");
+  width: 500px;
+  height: 650px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.card3 {
+  background-image: url("../imagenes/fondocard3.jpg");
+  width: 500px;
+  height: 650px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+.card4 {
+  background-image: url("https://i.pinimg.com/564x/ee/3e/36/ee3e36b30f6aa641c24b362c797bc543.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 650px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.card5 {
+  background-image: url("https://i.pinimg.com/originals/32/6f/59/326f599a4e0d1c7ef4b676fe3a04cd21.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 650px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+header{
+  display: flex; 
+  justify-content:left;
+  align-items:center ;
+  padding: 30px;
+  /* background-color: coral; */
+
+}
+.logo{
+  display: flex;
+  align-items: center;
+
+}
+
+.logo, img{
+  height: 100px;
+  margin-right: 10px;
+}
+ 
+.redsocial{
+  padding-left: 15px;
+  color: #123142;
+
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.flex-container{
+  /* border: 1px solid black; */
+  /* background-color: #cccc; */
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+.perfil{
+  height: 85px;
+}
+
+
+
+
+
+/*---------------Flechas siguiente y anterior-------*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.slick-prev {
+  left: 10px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 10px;
+  z-index: 999;
+}
