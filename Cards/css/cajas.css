@@ -106,8 +106,6 @@
 
   }
   .c6{
-    /* background-color: #110218;
-    opacity: .5; */
     display:flex; 
     justify-content:center;
     align-items:center ;
@@ -140,4 +138,112 @@
     justify-content:left;
   }
 
+  /*Card2*/
+  .caja5card2{
+    margin: 10px;
+    /* border: 1px solid; */
+    /* background-color: coral; */
+    color: rgb(3, 3, 3);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 215px;
+    height: 140px;
+    order: 2;
+  }
   
+  .caja6card2{
+    margin: 10px;
+    /* border: 1px solid; 
+    background-color: coral; */
+    color: rgb(3, 3, 3);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 215px;
+    height: 140px;
+    order: 1;
+
+  }
+
+   .c6card2{
+    /* background-color: #110218;
+    opacity: .5; */
+    display:flex; 
+    justify-content:center;
+    align-items:center ;
+    height: 100px;
+    width: 150;
+    margin-top: 10px;
+
+  }
+  .c4_card2{
+    display:flex; 
+    justify-content:center;
+    align-items:center ;
+    margin-top: 20px;
+    border: 5px solid #123142;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+
+  }
+
+  .c5_card2{
+    border: 5px solid #123142;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+
+  }
+  .c5card2_2{
+    
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 110px;
+    height: 70px;
+    margin-left: 10px;
+
+  }
+
+  .c3card3{
+    border-radius: 10px;
+    display:flex; 
+    justify-content:center;
+    align-items:center ;
+    /* border: 5px solid rgb(159, 81, 175); */
+    /* border: 5px solid #123142; */
+    height: 90px;
+    width: 150;
+    margin-top: 10px;
+  }
+
+  .c3card3_2{
+    
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 110px;
+    height: 70px;
+    margin-left: 10px;
+
+  }
+
+  .caja2_3{
+    margin: 10px;
+    /* border: 1px solid; */
+    /* background-color: coral; */
+    color: rgb(3, 3, 3);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 215px;
+    height: 140px;
+  }
+  .c5card3{
+    display:flex; 
+    justify-content:center;
+    align-items:center ;
+    height: 100px;
+    width: 150;
+    margin-top: 10px;
+
+  }
